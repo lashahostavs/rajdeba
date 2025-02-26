@@ -1,0 +1,32 @@
+ body{
+    text-align: center;
+    background-color:green ;
+ }
+ button{
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(17, 236, 17);
+ }
+ input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 25px;
+    background-color: ;
+ }
+
+ @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      flex-direction: column; /* Stack items vertically on small screens */
+    }
+  }
