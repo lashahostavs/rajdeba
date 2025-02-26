@@ -7,5 +7,5 @@ document.querySelector("button").addEventListener("click", function (){
         alert("რიცხვები ჩაწერე.");
         return;
     }
-    alert("შენ მოსა დაგიჯდება "+Math.round(fasi)+" ლარი")
+    alert("შენ მოსა დაგიჯდება "+Math.ceil(fasi)+" ლარი")
 })
