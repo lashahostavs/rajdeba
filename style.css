@@ -1,32 +1,27 @@
  body{
     text-align: center;
-    background-color:green ;
+    background-image: url(./ec29e105-ac61-4097-9f5a-7f18de4ea29e_1920x1080.jpg);
+    background-size: 1920x1080;
  }
  button{
     margin-top: 15px;
     width: 150px;
-    height: 30px;
-    border: none;
+    height: 40px;
+    border: solid black 2px;
     border-radius: 5px;
-    background-color: rgb(17, 236, 17);
+    background-color: rgb(20, 166, 20);
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
  }
+
  input{
     width: 350px;
     height: 40px;
     border-radius: 10px;
-    border: none;
+    border: solid black 2px;
     text-align: center;
     margin-top: 300px;
     font-size: 25px;
-    background-color: ;
+    background-color: rgb(255, 255, 255, 0.7);
  }
-
- @media (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-  
-    .container {
-      flex-direction: column; /* Stack items vertically on small screens */
-    }
-  }
